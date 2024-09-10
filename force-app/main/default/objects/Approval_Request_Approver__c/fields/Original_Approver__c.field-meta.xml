@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Original_Approver__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The User that would originally be assigned as the Approver the Approval Request based on the Approval Matrix. However, they have set the Delegated Approver on their User record and delegated their approval responsibility.</description>
+    <inlineHelpText>The User that would originally be assigned as the Approver the Approval Request based on the Approval Matrix. However, they have set the Delegated Approver on their User record and delegated their approval responsibility.</inlineHelpText>
+    <label>Original Approver</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Approval_Request_Approvers1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

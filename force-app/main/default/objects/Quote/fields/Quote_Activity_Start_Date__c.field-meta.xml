@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Activity_Start_Date__c</fullName>
+    <description>This is the date that the Pricing Analyst received the RFQ Request</description>
+    <inlineHelpText>This is the date that the Pricing Analyst received the RFQ Request</inlineHelpText>
+    <label>Quote Activity Start Date</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

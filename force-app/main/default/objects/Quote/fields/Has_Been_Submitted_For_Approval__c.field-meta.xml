@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Been_Submitted_For_Approval__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This is leveraged in the Quote: Submit For Approval. The first time a User completes the flow, this will be set to &quot;true&quot;.
+
+The User will not be able to create new Approval Requests. They will need to work from the existing Approval Request. From the existing Approval Request, they will be able to collaborate with team members, recall and resubmit the Approval Request. There is no need to create an additional Approval Request after one has been created for the Quote.</description>
+    <label>Has Been Submitted For Approval</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

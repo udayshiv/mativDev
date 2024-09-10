@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Volume not sufficient</fullName>
+                <default>false</default>
+                <label>Volume not sufficient</label>
+            </value>
+            <value>
+                <fullName>Margin is not sufficient</fullName>
+                <default>false</default>
+                <label>Margin is not sufficient</label>
+            </value>
+            <value>
+                <fullName>Not Aligned with Business Strategy</fullName>
+                <default>false</default>
+                <label>Not Aligned with Business Strategy</label>
+            </value>
+            <value>
+                <fullName>Lack of capacity</fullName>
+                <default>false</default>
+                <label>Lack of capacity</label>
+            </value>
+            <value>
+                <fullName>Lack of capability</fullName>
+                <default>false</default>
+                <label>Lack of capability</label>
+            </value>
+            <value>
+                <fullName>Needs more information</fullName>
+                <default>false</default>
+                <label>Needs more information</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Margin not Met</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Margin not Met</label>
+            </value>
+            <value>
+                <fullName>Not Aligned with Product Strategy</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Not Aligned with Product Strategy</label>
+            </value>
+            <value>
+                <fullName>Volume Too Low</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Volume Too Low</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Process_Approval_Lock</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Business__c, &quot;Healthcare&quot;),
+    OR(
+        ISPICKVAL(StageName, &quot;RFQ Requested&quot;),
+        ISPICKVAL(StageName, &quot;Quote in Development&quot;),
+        ISPICKVAL(StageName, &quot;Quote Ready&quot;),
+        ISPICKVAL(StageName, &quot;Customer Review&quot;),
+        ISPICKVAL(StageName, &quot;Negotiation&quot;),
+        ISPICKVAL(StageName, &quot;Awarded&quot;),
+        ISPICKVAL(StageName, &quot;Closed - Won&quot;)
+    ),
+    NOT(Assessment_Approved__c),
+    NOT(
+        AND(
+            ISPICKVAL(StageName, &quot;RFQ Requested&quot;),
+            OR(
+                ISPICKVAL(Platform__c, &quot;Hydrocolloid&quot;),
+                ISPICKVAL(Platform__c, &quot;Sterilization Services&quot;)
+            ),
+            EBITDA__c &gt;= 0.15
+        )
+    ),
+    NOT(Assessment_Bypassed__c)
+)</errorConditionFormula>
+    <errorMessage>This Opportunity&#39;s Stage cannot progress beyond Assessment Requested until it has been assessed and approved by Healthcare Leadership</errorMessage>
+</ValidationRule>

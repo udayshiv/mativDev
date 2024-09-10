@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Follow_Up_Status</fullName>
+    <active>true</active>
+    <description>If the Lead is put into &quot;Follow Up&quot; status, then the User must specify a value for the Follow Up Timeframe field.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Status, &#39;Follow Up&#39;),
+    ISPICKVAL(Follow_Up_Timeframe__c, &#39;&#39;)
+)</errorConditionFormula>
+    <errorDisplayField>Follow_Up_Timeframe__c</errorDisplayField>
+    <errorMessage>Please specify the Timeframe in which you intend to follow up with this Lead</errorMessage>
+</ValidationRule>

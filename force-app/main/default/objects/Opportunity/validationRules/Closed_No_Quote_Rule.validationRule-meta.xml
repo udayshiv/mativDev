@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_No_Quote_Rule</fullName>
+    <active>true</active>
+    <description>Prevents a record from being saved unless a loss reason is provided</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Closed - No Quote&quot;),
+    ISBLANK(No_Quote_Reason__c)
+)</errorConditionFormula>
+    <errorMessage>Please ensure you have provided a No Quote Reason before closing this opportunity.</errorMessage>
+</ValidationRule>

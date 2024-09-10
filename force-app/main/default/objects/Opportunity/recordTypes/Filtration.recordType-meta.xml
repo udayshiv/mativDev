@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filtration</fullName>
+    <active>true</active>
+    <businessProcess>Filtration Sales Process</businessProcess>
+    <label>Filtration</label>
+    <picklistValues>
+        <picklist>Business__c</picklist>
+        <values>
+            <fullName>Filtration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Customer_Type__c</picklist>
+        <values>
+            <fullName>Existing</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DB_Competitor__c</picklist>
+        <values>
+            <fullName>Competitor A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor C</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Closed-Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed-Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InCall Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Call Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>ADVT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web to Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Loss_Reason__c</picklist>
+        <values>
+            <fullName>Lost to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Budget %2F Lost Funding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision %2F Non-Responsive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Price</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Platform__c</picklist>
+        <values>
+            <fullName>Adhesive Coating %26 Foams</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biopolymers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Converting %26 Packaging Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disinfectant Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filling Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formulation%2C Mixing%2C Compounding%2C Milling%2C and Calendaring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC%2FAPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hydrocolloid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Industrial Processes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iodine Impregnation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Life Sciences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sterilization Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation Filtration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water Filtration</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Site__c</picklist>
+        <values>
+            <fullName>Athens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dallas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>El Cajon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gargrave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Genk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gilberdyke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greenfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knoxville</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malaysia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Middletown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minneapolis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Berlin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orangeburg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pittsfield</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renfrew</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roanoke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suzhou</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undetermined</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weidach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wilson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Windsor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

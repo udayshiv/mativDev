@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AA</fullName>
+        <default>false</default>
+        <label>Asset Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AG</fullName>
+        <default>false</default>
+        <label>Asset Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BROKE</fullName>
+        <default>false</default>
+        <label>BROKE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CLASS</fullName>
+        <default>false</default>
+        <label>CLASS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONFIG</fullName>
+        <default>false</default>
+        <label>Config_Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CONT</fullName>
+        <default>false</default>
+        <label>Container</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CUSTBASE</fullName>
+        <default>false</default>
+        <label>Customer Supplied Base</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CUSTRAW</fullName>
+        <default>false</default>
+        <label>Customer Supplied RM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EQ</fullName>
+        <default>false</default>
+        <label>Equipment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EXP</fullName>
+        <default>false</default>
+        <label>Expense Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EXPPLD</fullName>
+        <default>false</default>
+        <label>Expense-Planned Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FMBASE</fullName>
+        <default>false</default>
+        <label>FM Base Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FMFG</fullName>
+        <default>false</default>
+        <label>FM Finished Good</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FMWIP</fullName>
+        <default>false</default>
+        <label>FMWIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FORMULA</fullName>
+        <default>false</default>
+        <label>FORMULA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FORMULANLC</fullName>
+        <default>false</default>
+        <label>FORMULANLC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPAI</fullName>
+        <default>false</default>
+        <label>FP ATO Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPAOC</fullName>
+        <default>false</default>
+        <label>FP ATO Option Class</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPATO</fullName>
+        <default>false</default>
+        <label>FP ATO Model</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPBASE</fullName>
+        <default>false</default>
+        <label>FP Base Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPCONVERT</fullName>
+        <default>false</default>
+        <label>FP Converting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPFOX</fullName>
+        <default>false</default>
+        <label>FP FOX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPFRT</fullName>
+        <default>false</default>
+        <label>FP Freight Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPMAKE</fullName>
+        <default>false</default>
+        <label>FP FG - Make</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPREBATE</fullName>
+        <default>false</default>
+        <label>FP Rebate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPSTOCK</fullName>
+        <default>false</default>
+        <label>FP FG - Stock</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPTRIALS</fullName>
+        <default>false</default>
+        <label>FP Trial Sold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPTRIALU</fullName>
+        <default>false</default>
+        <label>FP Trial Unsold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FPWIP</fullName>
+        <default>false</default>
+        <label>FPWIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FS</fullName>
+        <default>false</default>
+        <label>Finishing Supply</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FURNISH</fullName>
+        <default>false</default>
+        <label>FURNISH</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INCLUDED</fullName>
+        <default>false</default>
+        <label>Included Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INTERNET</fullName>
+        <default>false</default>
+        <label>Internet Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>INVALID</fullName>
+        <default>false</default>
+        <label>Invalid Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KIT</fullName>
+        <default>false</default>
+        <label>KIT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MFS</fullName>
+        <default>false</default>
+        <label>Manufactured Finishing Supply</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MODEL</fullName>
+        <default>false</default>
+        <label>MODEL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MRO</fullName>
+        <default>false</default>
+        <label>MRO Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NS</fullName>
+        <default>false</default>
+        <label>Non-Stocked Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OP</fullName>
+        <default>false</default>
+        <label>Outside Processing Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPBASE</fullName>
+        <default>false</default>
+        <label>OPBASE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPFG</fullName>
+        <default>false</default>
+        <label>OP Finished Goods</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPSAMPLE</fullName>
+        <default>false</default>
+        <label>OPSAMPLE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPTION</fullName>
+        <default>false</default>
+        <label>OPTION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPWIP</fullName>
+        <default>false</default>
+        <label>OPWIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PHANTOM</fullName>
+        <default>false</default>
+        <label>Phantom Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PROMOTION</fullName>
+        <default>false</default>
+        <label>PROMOTION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PURBASE</fullName>
+        <default>false</default>
+        <label>Purchased Base</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RAW</fullName>
+        <default>false</default>
+        <label>Raw Material Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SAMPLE</fullName>
+        <default>false</default>
+        <label>FP Sample Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SERVICE</fullName>
+        <default>false</default>
+        <label>SERVICE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>STANDARD</fullName>
+        <default>false</default>
+        <label>STANDARD</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SVC</fullName>
+        <default>false</default>
+        <label>Service Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMBASE</fullName>
+        <default>false</default>
+        <label>TM Base Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMFG</fullName>
+        <default>false</default>
+        <label>TM Finished Good</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMSVC</fullName>
+        <default>false</default>
+        <label>TM Service Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMTRIAL</fullName>
+        <default>false</default>
+        <label>TM TRIAL</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TMWIP</fullName>
+        <default>false</default>
+        <label>TM WIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPBASE</fullName>
+        <default>false</default>
+        <label>TP Base Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPCOMGR</fullName>
+        <default>false</default>
+        <label>TP Common Grade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPCONVERT</fullName>
+        <default>false</default>
+        <label>TP Converting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPFG</fullName>
+        <default>false</default>
+        <label>TP Finished Good</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPPALLET</fullName>
+        <default>false</default>
+        <label>TP Pallet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPREBATE</fullName>
+        <default>false</default>
+        <label>TP Rebate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPSAMPLE</fullName>
+        <default>false</default>
+        <label>TP Sample</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPTIRALU</fullName>
+        <default>false</default>
+        <label>TP Trial Unsold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPTRIALS</fullName>
+        <default>false</default>
+        <label>TP Trial Sold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TPWIP</fullName>
+        <default>false</default>
+        <label>TP WIP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VEH</fullName>
+        <default>false</default>
+        <label>Vehicle</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WEBSITE_ITEM</fullName>
+        <default>false</default>
+        <label>Website Item</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FR4</fullName>
+        <default>false</default>
+        <label>FR4-Test</label>
+    </standardValue>
+</StandardValueSet>

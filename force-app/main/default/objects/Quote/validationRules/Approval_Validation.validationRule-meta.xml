@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Validation</fullName>
+    <active>false</active>
+    <description>Prevents a user from progressing a quote status until it has been approved via approval submission</description>
+    <errorConditionFormula>AND(
+    $RecordType.DeveloperName = &#39;Healthcare&#39;,
+    ISCHANGED(Status),
+    NOT(Approved__c),
+    OR(
+        ISPICKVAL(Status, &#39;Presented&#39;),
+        ISPICKVAL(Status, &#39;Accepted&#39;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Please ensure a Quote has been approved before presenting or marking a Quote as accepted</errorMessage>
+</ValidationRule>

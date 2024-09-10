@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This will only be populated for Approval Requests that are Quote Approvals. This will be blank for Assessments.</description>
+    <inlineHelpText>This will only be populated for Approval Requests that are Quote Approvals. This will be blank for Assessments.</inlineHelpText>
+    <label>Quote</label>
+    <referenceTo>Quote</referenceTo>
+    <relationshipLabel>Approval Requests</relationshipLabel>
+    <relationshipName>Approval_Requests</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Ready_Lock</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Quote Ready&quot;),
+    ISPICKVAL(StageName, &quot;Customer Review&quot;),
+    ISPICKVAL(Business__c, &quot;Filtration&quot;),
+    NOT(Attachments_Populated__c)
+)</errorConditionFormula>
+    <errorMessage>Please ensure there is a Quote and PDF Template attached.</errorMessage>
+</ValidationRule>

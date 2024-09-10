@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Working</fullName>
+        <default>false</default>
+        <label>Working</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+        <converted>true</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Transferred to Dist.</fullName>
+        <default>false</default>
+        <label>Transferred to Dist.</label>
+        <converted>false</converted>
+    </standardValue>
+    <standardValue>
+        <fullName>Dead/Closed</fullName>
+        <default>false</default>
+        <label>Dead/Closed</label>
+        <converted>false</converted>
+    </standardValue>
+</StandardValueSet>

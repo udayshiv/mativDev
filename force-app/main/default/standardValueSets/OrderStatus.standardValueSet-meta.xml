@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupingStringEnum>OrderStatusCode</groupingStringEnum>
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Draft</fullName>
+        <default>false</default>
+        <label>Draft</label>
+        <groupingString>Draft</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Activated</fullName>
+        <default>false</default>
+        <label>Activated</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Active</fullName>
+        <default>false</default>
+        <label>Active</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Start Date</fullName>
+        <default>false</default>
+        <label>Awaiting Start Date</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Booked</fullName>
+        <default>false</default>
+        <label>Booked</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Accepted</fullName>
+        <default>false</default>
+        <label>Customer Accepted</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Ready for Deal Update</fullName>
+        <default>false</default>
+        <label>Ready for Deal Update</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted-Deals Workbench</fullName>
+        <default>false</default>
+        <label>Submitted-Deals Workbench</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft - Customer Rejected</fullName>
+        <default>false</default>
+        <label>Draft - Customer Rejected</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft - Internal Rejected</fullName>
+        <default>false</default>
+        <label>Draft - Internal Rejected</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Draft Submitted</fullName>
+        <default>false</default>
+        <label>Draft Submitted</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Entered</fullName>
+        <default>false</default>
+        <label>Entered</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Approved</fullName>
+        <default>false</default>
+        <label>Internal Approved</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Rejected</fullName>
+        <default>false</default>
+        <label>Internal Rejected</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Interface - Complete</fullName>
+        <default>false</default>
+        <label>Invoice Interface - Complete</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Invoice Interface - On Hold</fullName>
+        <default>false</default>
+        <label>Awaiting Invoice Interface - On Hold</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Invoice Interface - Incomplete Data</fullName>
+        <default>false</default>
+        <label>Awaiting Invoice Interface - Incomplete Data</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Interface - Not Applicable</fullName>
+        <default>false</default>
+        <label>Invoice Interface - Not Applicable</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Offer Expired</fullName>
+        <default>false</default>
+        <label>Offer Expired</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Customer Acceptance</fullName>
+        <default>false</default>
+        <label>Pending Customer Acceptance</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Internal Approval</fullName>
+        <default>false</default>
+        <label>Pending Internal Approval</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Pricing Approval</fullName>
+        <default>false</default>
+        <label>Pending Pricing Approval</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Approved</fullName>
+        <default>false</default>
+        <label>Pricing Approved</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected - Pending Cancellation</fullName>
+        <default>false</default>
+        <label>Rejected - Pending Cancellation</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Return Rejected</fullName>
+        <default>false</default>
+        <label>Return Rejected</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Review Required</fullName>
+        <default>false</default>
+        <label>Review Required</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Submitted</fullName>
+        <default>false</default>
+        <label>Submitted</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>Terminated</fullName>
+        <default>false</default>
+        <label>Terminated</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+    <standardValue>
+        <fullName>User Working</fullName>
+        <default>false</default>
+        <label>User Working</label>
+        <groupingString>Activated</groupingString>
+    </standardValue>
+</StandardValueSet>

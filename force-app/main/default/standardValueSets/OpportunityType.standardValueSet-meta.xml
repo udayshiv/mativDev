@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Existing Product w/ Active Pricing</fullName>
+        <default>false</default>
+        <label>Existing Product w/ Active Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Product w/ Inactive Pricing</fullName>
+        <default>false</default>
+        <label>Existing Product w/ Inactive Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Technology</fullName>
+        <default>false</default>
+        <label>Existing Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Technology</fullName>
+        <default>false</default>
+        <label>New Technology</label>
+    </standardValue>
+</StandardValueSet>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Healthcare Sales Process</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Customer Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Executive Escalation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Leadership Assessment</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>New Request</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualification Approval</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Quote in Development</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>RFQ Submitted</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

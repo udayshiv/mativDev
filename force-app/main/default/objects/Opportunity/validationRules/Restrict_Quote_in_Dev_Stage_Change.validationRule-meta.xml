@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Quote_in_Dev_Stage_Change</fullName>
+    <active>true</active>
+    <description>This prevents a user from changing an Opportunity&#39;s stage to &quot;Quote in Development&quot; unless their User&#39;s Title is &quot;Pricing Analyst&quot; or if their Profile is a &quot;System Administrator&quot;</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Quote in Development&quot;),
+    NOT(
+        OR(
+            $User.Title = &quot;Pricing Analyst&quot;,
+            $Profile.Name = &quot;System Administrator&quot;
+        )
+    ),
+    ISPICKVAL(Business__c, &quot;Healthcare&quot;),
+    OR(
+        ISPICKVAL(PRIORVALUE(StageName), &quot;New Request&quot;),
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Sample Sent&quot;),
+        ISPICKVAL(PRIORVALUE(StageName), &quot;RFQ Requested&quot;)
+    )
+)</errorConditionFormula>
+    <errorMessage>Only Pricing Analysts or System Administrators can update an Opportunity to &quot;Quote in Development&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>W2L_I_m_interested_in_a_quote__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>I&#39;m interested in a quote</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

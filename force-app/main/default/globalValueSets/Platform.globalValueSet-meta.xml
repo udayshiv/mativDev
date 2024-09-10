@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Adhesive Coating &amp; Foams</fullName>
+        <default>false</default>
+        <label>Adhesive Coating &amp; Foams</label>
+    </customValue>
+    <customValue>
+        <fullName>Biopolymers</fullName>
+        <default>false</default>
+        <label>Biopolymers</label>
+    </customValue>
+    <customValue>
+        <fullName>Converting &amp; Packaging Services</fullName>
+        <default>false</default>
+        <label>Converting &amp; Packaging Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Disinfectant Solutions</fullName>
+        <default>false</default>
+        <label>Disinfectant Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Filling Solutions</fullName>
+        <default>false</default>
+        <label>Filling Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Formulation, Mixing, Compounding, Milling, and Calendaring</fullName>
+        <default>false</default>
+        <label>Formulation, Mixing, Compounding, Milling, and Calendaring</label>
+    </customValue>
+    <customValue>
+        <fullName>Hydrocolloid</fullName>
+        <default>false</default>
+        <label>Hydrocolloid</label>
+    </customValue>
+    <customValue>
+        <fullName>Iodine Impregnation</fullName>
+        <default>false</default>
+        <label>Iodine Impregnation</label>
+    </customValue>
+    <customValue>
+        <fullName>Sterilization Services</fullName>
+        <default>false</default>
+        <label>Sterilization Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Transportation Filtration</fullName>
+        <default>false</default>
+        <label>Transportation Filtration</label>
+    </customValue>
+    <customValue>
+        <fullName>Water Filtration</fullName>
+        <default>false</default>
+        <label>Water Filtration</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Processes</fullName>
+        <default>false</default>
+        <label>Industrial Processes</label>
+    </customValue>
+    <customValue>
+        <fullName>HVAC/APC</fullName>
+        <default>false</default>
+        <label>HVAC/APC</label>
+    </customValue>
+    <customValue>
+        <fullName>Life Sciences</fullName>
+        <default>false</default>
+        <label>Life Sciences</label>
+    </customValue>
+    <masterLabel>Platform</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>W2L_I_d_like_to_see_product_samples__c</fullName>
+    <defaultValue>false</defaultValue>
+    <label>I&#39;d like to see product samples</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>
